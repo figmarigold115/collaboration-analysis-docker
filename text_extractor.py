@@ -60,7 +60,9 @@ def perform_speaker_diarization(audio_file, token, num_speakers=5):
 
 # Main function
 def main():
-    video_file = 'records/meetingrecord_6th_teamzerobaek_proejct4.mp4'
+    start_time_global = time.time()
+
+    video_file = 'records\\meetingrecord_2nd_teamzerobaek_proejct4.mp4'
     audio_file = 'audio.wav'
 
     start_time = None
